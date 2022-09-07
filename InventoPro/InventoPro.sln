@@ -1,4 +1,3 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
@@ -20,13 +19,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multilanguage Json File", "
 		masalcore.json = masalcore.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invento.XalqNagillari", "Invento.XalqNagillari\Invento.XalqNagillari.csproj", "{E3C4B622-6B40-44BE-8DD0-5004D2BD9668}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invento.XalqNagillari", "Invento.XalqNagillari\Invento.XalqNagillari.csproj", "{E3C4B622-6B40-44BE-8DD0-5004D2BD9668}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Masal App", "Masal App", "{F93CDA61-F09D-4EF6-993E-E52E5BBCCDAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invento.TranslateApp", "Invento.TranslateApp\Invento.TranslateApp.csproj", "{2A233D1F-CDF5-40F5-A202-33EFCF844DF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invento.TranslateApp", "Invento.TranslateApp\Invento.TranslateApp.csproj", "{2A233D1F-CDF5-40F5-A202-33EFCF844DF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invento.Core.Mobil", "Invento.Core.Mobil\Invento.Core.Mobil.csproj", "{E7DD9638-9EF1-4A42-8342-0C565F56F501}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invento.Core.Mobil", "Invento.Core.Mobil\Invento.Core.Mobil.csproj", "{E7DD9638-9EF1-4A42-8342-0C565F56F501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invento.XamarinFormsIconCreator", "Invento.XamarinFormsIconCreator\Invento.XamarinFormsIconCreator.csproj", "{959EE016-FC21-4E1A-BD3B-CF105A8566A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,10 +61,12 @@ Global
 		{E7DD9638-9EF1-4A42-8342-0C565F56F501}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7DD9638-9EF1-4A42-8342-0C565F56F501}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7DD9638-9EF1-4A42-8342-0C565F56F501}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FE313BDE-F97E-4D64-8528-EFF2B06C6A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE313BDE-F97E-4D64-8528-EFF2B06C6A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE313BDE-F97E-4D64-8528-EFF2B06C6A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE313BDE-F97E-4D64-8528-EFF2B06C6A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959EE016-FC21-4E1A-BD3B-CF105A8566A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959EE016-FC21-4E1A-BD3B-CF105A8566A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959EE016-FC21-4E1A-BD3B-CF105A8566A9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{959EE016-FC21-4E1A-BD3B-CF105A8566A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959EE016-FC21-4E1A-BD3B-CF105A8566A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959EE016-FC21-4E1A-BD3B-CF105A8566A9}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,7 +79,7 @@ Global
 		{F93CDA61-F09D-4EF6-993E-E52E5BBCCDAE} = {7A59F268-4623-4871-9B8E-707BF80D979C}
 		{2A233D1F-CDF5-40F5-A202-33EFCF844DF2} = {71AD1EA3-FBFB-4A83-9C8D-E046A999315A}
 		{E7DD9638-9EF1-4A42-8342-0C565F56F501} = {CCE3A5FB-0C4B-44E3-860C-572204D328A4}
-		{FE313BDE-F97E-4D64-8528-EFF2B06C6A5B} = {F93CDA61-F09D-4EF6-993E-E52E5BBCCDAE}
+		{959EE016-FC21-4E1A-BD3B-CF105A8566A9} = {7A59F268-4623-4871-9B8E-707BF80D979C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C77BFA4B-6539-4FB6-8D0C-A6A178322B12}

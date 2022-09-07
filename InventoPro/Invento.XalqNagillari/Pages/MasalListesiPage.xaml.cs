@@ -1,20 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+namespace Invento.XalqNagillari.Pages;
 
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-
-namespace Invento.XalqNagillari.Pages
+public partial class MasalListesiPage : ContentPage
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MasalListesiPage : ContentPage
-    {
-        public MasalListesiPage()
-        {
-            InitializeComponent();
-        }
-    }
+	public MasalListesiPage()
+	{
+		InitializeComponent();
+	}
 }
