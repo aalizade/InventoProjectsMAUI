@@ -18,7 +18,15 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multilanguage Json File", "Multilanguage Json File", "{71AD1EA3-FBFB-4A83-9C8D-E046A999315A}"
 	ProjectSection(SolutionItems) = preProject
 		core.json = core.json
+		diller.json = diller.json
+		masalcore.json = masalcore.json
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invento.XalqNagillari", "Invento.XalqNagillari\Invento.XalqNagillari.csproj", "{E3C4B622-6B40-44BE-8DD0-5004D2BD9668}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Book App", "Book App", "{F93CDA61-F09D-4EF6-993E-E52E5BBCCDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invento.TranslateApp", "Invento.TranslateApp\Invento.TranslateApp.csproj", "{2A233D1F-CDF5-40F5-A202-33EFCF844DF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +50,16 @@ Global
 		{FE32D74D-8BD6-4B6E-8C9E-7126DC5B6728}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE32D74D-8BD6-4B6E-8C9E-7126DC5B6728}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE32D74D-8BD6-4B6E-8C9E-7126DC5B6728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C4B622-6B40-44BE-8DD0-5004D2BD9668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C4B622-6B40-44BE-8DD0-5004D2BD9668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C4B622-6B40-44BE-8DD0-5004D2BD9668}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E3C4B622-6B40-44BE-8DD0-5004D2BD9668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C4B622-6B40-44BE-8DD0-5004D2BD9668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C4B622-6B40-44BE-8DD0-5004D2BD9668}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2A233D1F-CDF5-40F5-A202-33EFCF844DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A233D1F-CDF5-40F5-A202-33EFCF844DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A233D1F-CDF5-40F5-A202-33EFCF844DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A233D1F-CDF5-40F5-A202-33EFCF844DF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +69,9 @@ Global
 		{A62FB440-C8A4-4A61-AA60-19C2E0A175B2} = {CCE3A5FB-0C4B-44E3-860C-572204D328A4}
 		{12160976-1E40-41B1-8BA5-389D36575CE2} = {CCE3A5FB-0C4B-44E3-860C-572204D328A4}
 		{FE32D74D-8BD6-4B6E-8C9E-7126DC5B6728} = {CCE3A5FB-0C4B-44E3-860C-572204D328A4}
+		{E3C4B622-6B40-44BE-8DD0-5004D2BD9668} = {F93CDA61-F09D-4EF6-993E-E52E5BBCCDAE}
+		{F93CDA61-F09D-4EF6-993E-E52E5BBCCDAE} = {7A59F268-4623-4871-9B8E-707BF80D979C}
+		{2A233D1F-CDF5-40F5-A202-33EFCF844DF2} = {71AD1EA3-FBFB-4A83-9C8D-E046A999315A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C77BFA4B-6539-4FB6-8D0C-A6A178322B12}
