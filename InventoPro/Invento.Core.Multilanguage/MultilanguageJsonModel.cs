@@ -24,17 +24,10 @@ namespace Invento.Core.Multilanguage
         public string Crotian { get; set; }
         public string Czech { get; set; }
         public string Danish { get; set; }
-
         public string Dutch { get; set; }
         public string Finnish { get; set; }
         public string Greek { get; set; }
         public string Hebrew { get; set; }
-
-        /* Message Json Format
-        {
-            
-        }
-         */
         public string Hindi { get; set; }
         public string Hungarian { get; set; }
         public string Indonesian { get; set; }

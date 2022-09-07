@@ -11,6 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invento.Core.Model", "Inven
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invento.Core.Mobil", "Invento.Core.Mobil\Invento.Core.Mobil.csproj", "{FE32D74D-8BD6-4B6E-8C9E-7126DC5B6728}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CCE3A5FB-0C4B-44E3-860C-572204D328A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MAUI", "MAUI", "{7A59F268-4623-4871-9B8E-707BF80D979C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multilanguage Json File", "Multilanguage Json File", "{71AD1EA3-FBFB-4A83-9C8D-E046A999315A}"
+	ProjectSection(SolutionItems) = preProject
+		core.json = core.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +45,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1ED7A79-D122-4E74-8B10-D8B3CDEDD5BC} = {CCE3A5FB-0C4B-44E3-860C-572204D328A4}
+		{A62FB440-C8A4-4A61-AA60-19C2E0A175B2} = {CCE3A5FB-0C4B-44E3-860C-572204D328A4}
+		{12160976-1E40-41B1-8BA5-389D36575CE2} = {CCE3A5FB-0C4B-44E3-860C-572204D328A4}
+		{FE32D74D-8BD6-4B6E-8C9E-7126DC5B6728} = {CCE3A5FB-0C4B-44E3-860C-572204D328A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C77BFA4B-6539-4FB6-8D0C-A6A178322B12}
