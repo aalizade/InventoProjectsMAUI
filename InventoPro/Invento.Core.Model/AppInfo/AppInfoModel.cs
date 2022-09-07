@@ -1,5 +1,6 @@
 ﻿using Invento.Core.Common;
 using Invento.Core.Model.Admob;
+using Invento.Core.Multilanguage;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,11 +11,11 @@ namespace Invento.Core.Model.AppInfo
 {
     public class AppInfoModel
     {
-        public string AppId { get; set; }
-        public EStore CurrentStore { get; set; }
-        public List<StoreDataModel> Stores { get; set; }
-
-        public List<AppDetailModel> AppDetail { get; set; }
+        /// <summary>
+        /// SKU Sample=>com.invento.XalqNagillari
+        /// </summary>
+        public string AppId { get; set; } 
+        public EMessageCode AppName { get; set; }
         public List<AdmobModel> AdvertisingInfo { get; set; }
     }
 }

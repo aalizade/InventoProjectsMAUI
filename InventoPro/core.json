@@ -40,7 +40,7 @@
   {
     "MessageCode": "Cancel",
     "Turkish": "İptal",
-    "English": "İptal",
+    "English": "Cancel",
     "Japanese": "",
     "Azerbaijani": "",
     "Russian": "",
@@ -76,9 +76,9 @@
     "Malay": ""
   },
   {
-    "MessageCode": "Cancel",
+    "MessageCode": "DataSavedSuccesfully",
     "Turkish": "İptal",
-    "English": "İptal",
+    "English": "Data Saved Successfully",
     "Japanese": "",
     "Azerbaijani": "",
     "Russian": "",

@@ -1,4 +1,5 @@
-﻿namespace Invento.XalqNagillari
+﻿
+namespace Invento.XalqNagillari
 {
     public partial class App : Application
     {
@@ -6,7 +7,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new MainPage();
         }
     }
 }

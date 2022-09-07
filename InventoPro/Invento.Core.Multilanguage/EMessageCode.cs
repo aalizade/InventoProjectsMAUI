@@ -8,7 +8,9 @@ namespace Invento.Core.Multilanguage
 {
     public enum EMessageCode
     {
-        Kaydet,
-        Iptal,
+        //CORE
+        Save,
+        Cancel,
+        DataSavedSuccesfully
     }
 }
