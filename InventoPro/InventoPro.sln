@@ -13,21 +13,20 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MAUI", "MAUI", "{7A59F268-4623-4871-9B8E-707BF80D979C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multilanguage Json File", "Multilanguage Json File", "{71AD1EA3-FBFB-4A83-9C8D-E046A999315A}"
-	ProjectSection(SolutionItems) = preProject
-		core.json = core.json
-		diller.json = diller.json
-		masalcore.json = masalcore.json
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invento.XalqNagillari", "Invento.XalqNagillari\Invento.XalqNagillari.csproj", "{E3C4B622-6B40-44BE-8DD0-5004D2BD9668}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Masal App", "Masal App", "{F93CDA61-F09D-4EF6-993E-E52E5BBCCDAE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Masal Apps", "Masal Apps", "{F93CDA61-F09D-4EF6-993E-E52E5BBCCDAE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invento.TranslateApp", "Invento.TranslateApp\Invento.TranslateApp.csproj", "{2A233D1F-CDF5-40F5-A202-33EFCF844DF2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invento.Core.Mobil", "Invento.Core.Mobil\Invento.Core.Mobil.csproj", "{E7DD9638-9EF1-4A42-8342-0C565F56F501}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invento.XamarinFormsIconCreator", "Invento.XamarinFormsIconCreator\Invento.XamarinFormsIconCreator.csproj", "{959EE016-FC21-4E1A-BD3B-CF105A8566A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invento.XamarinFormsIconCreator", "Invento.XamarinFormsIconCreator\Invento.XamarinFormsIconCreator.csproj", "{959EE016-FC21-4E1A-BD3B-CF105A8566A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invento.KaskoDegeri", "Invento.KaskoDegeri\Invento.KaskoDegeri.csproj", "{3B24B8BD-E3DF-4A90-B4C1-90F70BEBE297}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Poducction", "Poducction", "{6BA49B92-3A0D-4110-8964-109CA114B259}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +66,12 @@ Global
 		{959EE016-FC21-4E1A-BD3B-CF105A8566A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{959EE016-FC21-4E1A-BD3B-CF105A8566A9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{959EE016-FC21-4E1A-BD3B-CF105A8566A9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3B24B8BD-E3DF-4A90-B4C1-90F70BEBE297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B24B8BD-E3DF-4A90-B4C1-90F70BEBE297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B24B8BD-E3DF-4A90-B4C1-90F70BEBE297}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3B24B8BD-E3DF-4A90-B4C1-90F70BEBE297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B24B8BD-E3DF-4A90-B4C1-90F70BEBE297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B24B8BD-E3DF-4A90-B4C1-90F70BEBE297}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +85,7 @@ Global
 		{2A233D1F-CDF5-40F5-A202-33EFCF844DF2} = {71AD1EA3-FBFB-4A83-9C8D-E046A999315A}
 		{E7DD9638-9EF1-4A42-8342-0C565F56F501} = {CCE3A5FB-0C4B-44E3-860C-572204D328A4}
 		{959EE016-FC21-4E1A-BD3B-CF105A8566A9} = {7A59F268-4623-4871-9B8E-707BF80D979C}
+		{3B24B8BD-E3DF-4A90-B4C1-90F70BEBE297} = {7A59F268-4623-4871-9B8E-707BF80D979C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C77BFA4B-6539-4FB6-8D0C-A6A178322B12}
