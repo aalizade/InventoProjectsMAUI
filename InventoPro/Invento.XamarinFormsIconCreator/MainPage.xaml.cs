@@ -7,7 +7,6 @@
         public MainPage()
         {
             InitializeComponent();
-            HeaderObject.Text = "Xamarin Icon Creator(Android&iOS)";
         }
 
         private void OnCounterClicked(object sender, EventArgs e)
@@ -21,6 +20,5 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
-
     }
 }

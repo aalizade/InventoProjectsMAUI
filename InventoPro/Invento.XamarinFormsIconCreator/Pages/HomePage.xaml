@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Invento.XamarinFormsIconCreator.Pages.HomePage"
+             Title="HomePage">
+    <StackLayout>
+        <Image Source="iconapp.png" HeightRequest="80" HorizontalOptions="Center" VerticalOptions="Start"></Image>
+
+        <StackLayout WidthRequest="500" VerticalOptions="CenterAndExpand">
+            <StackLayout Margin="10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label VerticalOptions="CenterAndExpand" HorizontalOptions="Start" Text="Project Name" Grid.Column="0" FontAttributes="Bold" ></Label>
+                    <Entry VerticalOptions="CenterAndExpand"  Placeholder="Enter Project Name" Grid.Column="1"></Entry>
+                </Grid>
+            </StackLayout>
+
+            <StackLayout Margin="10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label VerticalOptions="CenterAndExpand" HorizontalOptions="Start" Text="Select Image" Grid.Column="0" FontAttributes="Bold"></Label>
+
+                    <Frame VerticalOptions="CenterAndExpand" Grid.Column="1" BorderColor="#512BD4">
+                        <StackLayout>
+                            <Image x:Name="ImageFileObject" Source="unnamed.png" HeightRequest="200" WidthRequest="200">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnTapImageGestureRecognizerTapped"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                            
+                            <Label x:Name="ImageFileLabelObject" Text="Click to select" FontAttributes="Bold" FontSize="12" HorizontalOptions="CenterAndExpand"></Label>
+                        </StackLayout>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+
+            <StackLayout Margin="10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="100"></ColumnDefinition>
+                        <ColumnDefinition Width="100"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label VerticalOptions="CenterAndExpand" HorizontalOptions="Start" Text="Platform" Grid.Column="0" FontAttributes="Bold" ></Label>
+                    <StackLayout Orientation="Horizontal" Grid.Column="1">
+                        <CheckBox IsChecked="True" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></CheckBox>
+                        <Label Text="Android" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Grid.Column="2">
+                        <CheckBox IsChecked="True" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></CheckBox>
+                        <Label Text="iOS" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></Label>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+
+
+            <StackLayout Margin="10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button Text="Create" Clicked="CreatedClickedEventHandler" Grid.Column="1"></Button>
+                </Grid>
+            </StackLayout>
+
+            <StackLayout>
+               
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout VerticalOptions="EndAndExpand" HeightRequest="15">
+            <StackLayout BackgroundColor="#2196F3"  VerticalOptions="EndAndExpand">
+                <Label HorizontalTextAlignment="Center" VerticalOptions="EndAndExpand" FontSize="10" x:Name="DeveloperLabelObject" TextColor="White" Text="InventoTECH V1.0"></Label>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

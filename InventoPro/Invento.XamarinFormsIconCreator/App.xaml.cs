@@ -1,4 +1,6 @@
-﻿namespace Invento.XamarinFormsIconCreator
+﻿using Invento.XamarinFormsIconCreator.Pages;
+
+namespace Invento.XamarinFormsIconCreator
 {
     public partial class App : Application
     {
@@ -6,9 +8,7 @@
         {
             InitializeComponent();
 
-
-
-            MainPage = new MainPage();
+            MainPage = new HomePage();
         }
     }
 }

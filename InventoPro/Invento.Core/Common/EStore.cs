@@ -12,7 +12,7 @@ namespace Invento.Core.Common
     {
         HuaweiStore=1,
         AppStoreIOS=2,
-        AppStoreMAC,
-        WindowStore,
+        AppStoreMAC=3,
+        WindowStore=4,
     }
 }

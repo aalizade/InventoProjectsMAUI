@@ -9,34 +9,24 @@
             Padding="30,0"
             VerticalOptions="Center">
 
-            <Label 
-                x:Name="HeaderObject"
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
-                IsVisible="false"
-                SemanticProperties.HeadingLevel="Level1" 
-                HorizontalOptions="Center">
-            </Label>
+                HorizontalOptions="Center" />
 
-            
-            <Frame HorizontalOptions="Center" BorderColor="CadetBlue">
-                <StackLayout>
-
-                    <Label x:Name="WarningLabelObject" HorizontalTextAlignment="Center" Text="Not selected!"></Label>
-                    <Image
-                        x:Name="SourceImageObject"
-                        Source="notselected.png"
-                        SemanticProperties.Description="Source Image Object"
-                        HeightRequest="200" WidthRequest="200"
-                        HorizontalOptions="Center" />
-
-                    <Button 
-                        x:Name="SelectImageButton" 
-                        Text="Select Image">
-                    </Button>
-
-                    <Label x:Name="ImageFormatLabelObject" HorizontalTextAlignment="Center" Text="Supported .png, .jpg, .jpeg, .bmp"></Label>
-                </StackLayout>
-            </Frame>
+            <Label
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
 
             <Button
                 x:Name="CounterBtn"
@@ -45,7 +35,6 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
-            
         </VerticalStackLayout>
     </ScrollView>
 
