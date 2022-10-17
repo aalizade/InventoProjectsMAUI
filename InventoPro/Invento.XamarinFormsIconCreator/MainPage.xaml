@@ -11,7 +11,8 @@
 
             <Label 
                 x:Name="HeaderObject"
-                FontSize="32" 
+                FontSize="32"
+                IsVisible="false"
                 SemanticProperties.HeadingLevel="Level1" 
                 HorizontalOptions="Center">
             </Label>
@@ -23,9 +24,9 @@
                     <Label x:Name="WarningLabelObject" HorizontalTextAlignment="Center" Text="Not selected!"></Label>
                     <Image
                         x:Name="SourceImageObject"
-                        Source="dotnet_bot.png"
+                        Source="notselected.png"
                         SemanticProperties.Description="Source Image Object"
-                        HeightRequest="300"
+                        HeightRequest="200" WidthRequest="200"
                         HorizontalOptions="Center" />
 
                     <Button 
@@ -36,10 +37,7 @@
                     <Label x:Name="ImageFormatLabelObject" HorizontalTextAlignment="Center" Text="Supported .png, .jpg, .jpeg, .bmp"></Label>
                 </StackLayout>
             </Frame>
-            
 
-            
-            
             <Button
                 x:Name="CounterBtn"
                 Text="Click me"
