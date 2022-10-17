@@ -1,4 +1,5 @@
-﻿namespace Invento.XamarinFormsIconCreator
+﻿
+namespace Invento.XamarinFormsIconCreator
 {
     public static class MauiProgram
     {
