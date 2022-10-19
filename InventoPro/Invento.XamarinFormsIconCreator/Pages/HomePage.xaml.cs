@@ -1,4 +1,4 @@
-namespace Invento.XamarinFormsIconCreator.Pages;
+namespace Invento.XamarinFormsIconCreator;
 
 public partial class HomePage : ContentPage
 {

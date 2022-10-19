@@ -4,11 +4,28 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Invento.XamarinFormsIconCreator"
-    Shell.FlyoutBehavior="Disabled">
+    FlyoutHeaderBehavior="Fixed"
+    Shell.FlyoutBehavior="Flyout">
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:HomePage}"
+        Route="HomePage" />
 
+    <ShellContent
+        Title="History"
+        ContentTemplate="{DataTemplate local:HomePage}"
+        Route="HomePage" />
+    
+    <ShellContent
+        Title="Settings"
+        ContentTemplate="{DataTemplate local:HomePage}"
+        Route="HomePage" />
+
+    <ShellContent
+        Title="Info"
+        ContentTemplate="{DataTemplate local:HomePage}"
+        Route="HomePage" />
+
+   
 </Shell>
