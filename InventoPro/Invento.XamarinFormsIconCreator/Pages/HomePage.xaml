@@ -44,17 +44,18 @@
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="150"></ColumnDefinition>
-                        <ColumnDefinition Width="100"></ColumnDefinition>
-                        <ColumnDefinition Width="100"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
                     <Label VerticalOptions="CenterAndExpand" HorizontalOptions="Start" Text="Platform" Grid.Column="0" FontAttributes="Bold" ></Label>
-                    <StackLayout Orientation="Horizontal" Grid.Column="1">
-                        <CheckBox IsChecked="True" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></CheckBox>
-                        <Label Text="Android" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal" Grid.Column="2">
-                        <CheckBox IsChecked="True" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></CheckBox>
-                        <Label Text="iOS" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></Label>
+                    <StackLayout Grid.Column="1">
+                        <StackLayout Orientation="Horizontal" >
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnXamarinFormsClickedEventHandler" />
+                            </StackLayout.GestureRecognizers>
+                            <CheckBox x:Name="XamarinFromsCheckboxObject" IsChecked="True" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></CheckBox>
+                            <Label Text="Xamarin Forms" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></Label>
+                        </StackLayout>
+                        
                     </StackLayout>
                 </Grid>
             </StackLayout>

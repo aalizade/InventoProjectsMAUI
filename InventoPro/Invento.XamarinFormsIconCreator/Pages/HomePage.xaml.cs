@@ -32,4 +32,9 @@ public partial class HomePage : ContentPage
     {
         
     }
+
+    private void OnXamarinFormsClickedEventHandler(object sender, EventArgs e)
+    {
+        XamarinFromsCheckboxObject.IsChecked = !XamarinFromsCheckboxObject.IsChecked;
+    }
 }

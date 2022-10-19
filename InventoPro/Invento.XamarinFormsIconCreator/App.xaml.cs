@@ -8,7 +8,7 @@ namespace Invento.XamarinFormsIconCreator
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new HomePage();
         }
     }
 }
